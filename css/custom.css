@@ -2,6 +2,10 @@
   width: 100%;
 }
 
+.hr-left {
+  text-align: left;
+}
+
 .img-circle {
   border-radius: 50%;
 }
