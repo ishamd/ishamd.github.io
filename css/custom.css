@@ -5,7 +5,15 @@
 .divider {
   display: block;
   margin: 30px 0;
-  width: 100px;
+  width: 50px;
+  height: 3px;
+  background-color: white;
+}
+
+.divider-center {
+  display: inline-block;
+  margin: 30px 0;
+  width: 50px;
   height: 3px;
   background-color: white;
 }
