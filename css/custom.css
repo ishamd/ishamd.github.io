@@ -11,6 +11,7 @@
 
 .skill-ul {
   list-style: none;
+  display: block;
 }
 
 .skill-item {
