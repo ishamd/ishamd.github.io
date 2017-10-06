@@ -3,9 +3,10 @@
 }
 
 .divider {
+  display: block;
   margin: 30px 0;
   width: 100px;
-  height: 20px;
+  height: 3px;
   background-color: white;
 }
 
