@@ -39,10 +39,10 @@
 
 .skill-item {
   display: inline-block;
-  width: 150px;
-  height: 150px;
-  font-size: 18px;
-  line-height: 8;
+  width: 120px;
+  height: 120px;
+  font-size: 17px;
+  line-height: 7;
   border-radius: 50%;
   text-align: center;
   border: 2px solid;
