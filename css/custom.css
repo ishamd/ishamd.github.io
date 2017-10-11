@@ -60,3 +60,7 @@
 .portfolio-item:hover {
   opacity: 0.7;
 }
+
+.contact-ul {
+  list-style: none;
+}
