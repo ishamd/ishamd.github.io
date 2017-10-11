@@ -28,7 +28,7 @@
   margin: 30px 0;
   width: 50px;
   height: 3px;
-  background-color: '#f05f40';
+  background-color: #f05f40;
 }
 
 .skill-ul {
@@ -47,6 +47,10 @@
   text-align: center;
   border: 2px solid;
   border-color: '#222';
+}
+
+.skill-item:hover {
+  background-color: #e6e6e6;
 }
 
 .portfolio-item {
