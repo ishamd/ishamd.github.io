@@ -11,6 +11,14 @@ body {
   height: 400px;
 }
 
+.img-container img {
+  display: block;
+  max-height: 350px;
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
 .divider {
   display: block;
   margin: 30px 0;
