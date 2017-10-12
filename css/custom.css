@@ -78,6 +78,14 @@ body {
   text-align: center;
 }
 
+.portfolio-modal-btns {
+  padding-bottom: 20px;
+}
+
+.portfolio-modal-view {
+  padding-bottom: 10px;
+}
+
 .contact-ul {
   list-style: none;
 }
