@@ -69,6 +69,7 @@ body {
 .button-skill {
   text-align: center;
   border: 2px solid;
+  border-radius: 300px;
   border-color: #f05f40;
   background-color: white;
 }
