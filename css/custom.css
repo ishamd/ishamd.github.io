@@ -61,8 +61,16 @@ body {
   line-height: 7;
   border-radius: 50%;
   text-align: center;
+  border: 1px solid;
+  border-color: #f05f40;
+  background-color: white;
+}
+
+.button-skill {
+  text-align: center;
   border: 2px solid;
-  border-color: '#222';
+  border-color: #f05f40;
+  background-color: white;
 }
 
 .skill-item:hover {
