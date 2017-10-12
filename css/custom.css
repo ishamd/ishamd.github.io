@@ -15,14 +15,6 @@ body {
   height: 400px;
 }
 
-.img-container img {
-  display: block;
-  max-height: 350px;
-  width: 100%;
-  height: auto;
-  object-fit: cover;
-}
-
 .divider {
   display: block;
   margin: 30px 0;
@@ -68,7 +60,7 @@ body {
 
 .button-skill {
   text-align: center;
-  border: 2px solid;
+  border: 1px solid;
   border-radius: 300px;
   border-color: #f05f40;
   background-color: white;
@@ -79,11 +71,11 @@ body {
 }
 
 .portfolio-item {
-  cursor: pointer;
+  padding: 10px;
 }
 
-.portfolio-item:hover {
-  opacity: 0.7;
+.portfolio-item-des {
+  text-align: center;
 }
 
 .contact-ul {
