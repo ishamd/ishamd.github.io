@@ -11,6 +11,12 @@
     <title>Daniel Isham</title>
     <link rel="icon" type="image/png" href="./img/di-logo-clear.png">
 
+    <!-- clipboardjs -->
+    <script src="https://cdn.jsdelivr.net/npm/clipboard@1/dist/clipboard.min.js"></script>
+
+    <!-- bootbox -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootbox.js/4.4.0/bootbox.min.js"></script>
+
     <!-- Bootstrap core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
@@ -473,15 +479,15 @@
           <div class="mx-auto">
             <table>
               <tr>
-                <td><i class="fa fa-envelope-o fa-3x sr-contact"></i></td>
-                <td class="px-2"><a href="mailto:danielisham1@gmail.com">danielisham1@gmail.com</a></td>
+                <td><i class="fa fa-envelope-o fa-4x sr-contact"></i></td>
+                <td class="px-2"><a id="emailLink" data-clipboard-text="danielisham1@gmail.com">danielisham1@gmail.com</a></td>
               </tr>
               <tr>
-                <td><i class="fa fa-linkedin fa-3x sr-contact"></i></td>
+                <td><i class="fa fa-linkedin fa-4x sr-contact"></i></td>
                 <td class="px-2"><a href="https://www.linkedin.com/in/daniel-isham/" target="_blank">linkedin.com/in/daniel-isham</a></td>
               </tr>
               <tr>
-                <td><i class="fa fa-github fa-3x sr-contact"></i></td>
+                <td><i class="fa fa-github fa-4x sr-contact"></i></td>
                 <td class="px-2"><a href="https://github.com/ishamd" target="_blank">github.com/ishamd</a></td>
               </tr>
             </table>
@@ -489,6 +495,17 @@
         </div>
       </div>
     </section>
+
+    <script>
+    var emailLink = document.querySelectorAll('#emailLink');
+    var clipboard = new Clipboard(emailLink);
+    clipboard.on('success', function(e) {
+      bootbox.alert({
+        message: "Email copied to clipboard",
+        size: 'small'
+      });
+    });
+  </script>
 
     <!-- Bootstrap core JavaScript -->
     <script src="vendor/jquery/jquery.min.js"></script>
