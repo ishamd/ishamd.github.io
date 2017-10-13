@@ -26,6 +26,7 @@
     "url": "https://github.com/BlackrockDigital/startbootstrap-creative.git"
   },
   "dependencies": {
+    "bootbox": "^4.4.0",
     "bootstrap": "^4.0.0-beta",
     "clipboard": "^1.7.1",
     "font-awesome": "4.7.0",
